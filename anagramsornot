@@ -1,1 +1,12 @@
+def check(s1,s2):
 
+    if (sorted(s1) == sorted(s2)):
+        print("Given string is an anagram")
+
+    else:
+        print("Given string is not an anagram")
+
+s1=input("Enter the 1st string:") #input = listen
+s2=input("Enter the 2nd string:") #input = silent
+
+check(s1,s2)
