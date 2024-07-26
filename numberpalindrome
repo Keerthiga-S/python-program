@@ -1,1 +1,15 @@
+n=int(input("Enter the number:"))
+tem=n
+ans=0
 
+while(n>0):
+
+    rem = n % 10 
+    ans=(ans * 10) + rem
+    n= n // 10
+
+if tem == ans :
+    print("Number is a palindrome") 
+
+else:
+    print("Number is not a palindrome")
