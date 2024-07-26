@@ -1,1 +1,12 @@
+def minimum(n1,n2):
+     if n1 <= n2:
+       print(n1)
+
+     else:
+       print(n2)
+
+n1=int(input("Enter the n1 number :"))
+n2=int(input("Enter the n2 number :"))
+
+minimum(n1,n2)
 
