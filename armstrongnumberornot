@@ -1,0 +1,16 @@
+n=int(input("Enter the number:"))
+#input=153
+temp=n
+sum=0
+
+while n>0 :
+     
+     rem = n % 10 #3 
+     sum += rem ** 3 # 3*3*3 + 5*5*5 +1*1*1
+     n = n // 10 #15
+
+if temp == sum :
+    print("The given number is an armstrong")
+
+else:
+    print("The given number is not an armstrong")
