@@ -1,1 +1,27 @@
+n=int(input("Enter the number: "))
+
+if n == 1:
+    print(0) 
+
+if n == 2:
+    print(0)
+    print(1)
+
+if n > 2 :
+    f=0
+    print(f)
+
+    s=1
+    print(s)
+    
+    count=2
+
+    while count <= n:
+        t=f + s
+        print(t)
+
+        count = count + 1
+
+        f=s
+        s=t
 
