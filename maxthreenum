@@ -1,0 +1,17 @@
+def max(a,b,c):
+
+    if (a >= b and a >= c):
+        largest = a
+
+    elif(b >=a and b >= c):
+        largest = b
+
+    else:
+        largest = c
+
+    return largest
+
+a = int(input("Enter the a value:"))
+b = int(input("Enter the b value:"))
+c = int(input("Enter the c value:"))
+print(max(a,b,c))
