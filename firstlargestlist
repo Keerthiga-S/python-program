@@ -1,0 +1,11 @@
+def largest(list):
+    list.sort()
+    return list[-1]
+
+li=[]
+n=int(input("Enter the size of the list:"))
+for i in range(0,n):
+    e=int(input("Enter the element in the list:"))
+    li.append(e)
+
+print("The First largest in",li,"is",largest(li))
